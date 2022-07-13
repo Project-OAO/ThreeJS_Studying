@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="852dd267-7919-4216-afa0-60e3a2599c18" name="Changes" comment="Set up the basic stuff" />
+    <list default="true" id="852dd267-7919-4216-afa0-60e3a2599c18" name="Changes" comment="Set up the basic stuff">
+      <change afterPath="$PROJECT_DIR$/01.TrainingAids/start/01_normal/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.TrainingAids/start/module_basic/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.TrainingAids/start/module_basic/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -21,6 +34,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -38,6 +52,7 @@
       <option name="presentableId" value="Default" />
       <updated>1657676914865</updated>
       <workItem from="1657676916077" duration="1855000" />
+      <workItem from="1657679137060" duration="749000" />
     </task>
     <servers />
   </component>
