@@ -10,7 +10,7 @@ const webpackMode = process.env.NODE_ENV || 'development';
 module.exports = {
 	mode: webpackMode,
 	entry: {
-		main: './src/main.js',
+		main: './src2/main.js',
 	},
 	output: {
 		path: path.resolve('./dist'),
@@ -52,7 +52,7 @@ module.exports = {
 	},
 	plugins: [
 		new HtmlWebpackPlugin({
-			template: './src/index.html',
+			template: './src2/index.html',
 			minify: process.env.NODE_ENV === 'production' ? {
 				collapseWhitespace: true,
 				removeComments: true,
@@ -66,10 +66,10 @@ module.exports = {
 		// 그대로 사용할 파일들이 없다면 CopyWebpackPlugin을 통째로 주석 처리 해주세요.
 		new CopyWebpackPlugin({
 			patterns: [
-				{ from: "./src/main.css", to: "./main.css" },
-				// { from: "./src/images", to: "./images" },
-				// { from: "./src/models", to: "./models" },
-				// { from: "./src/sounds", to: "./sounds" }
+				{ from: "./src2/main.css", to: "./main.css" },
+				// { from: "./src2/images", to: "./images" },
+				// { from: "./src2/models", to: "./models" },
+				// { from: "./src2/sounds", to: "./sounds" }
 			],
 		})
 	]

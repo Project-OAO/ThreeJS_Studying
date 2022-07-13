@@ -10,7 +10,7 @@ const webpackMode = process.env.NODE_ENV || 'development';
 module.exports = {
 	mode: webpackMode,
 	entry: {
-		main: './src/main.js',
+		main: './src2/main.js',
 	},
 	output: {
 		path: path.resolve('./dist'),
@@ -52,7 +52,7 @@ module.exports = {
 	},
 	plugins: [
 		new HtmlWebpackPlugin({
-			template: './src/index.html',
+			template: './src2/index.html',
 			minify: process.env.NODE_ENV === 'production' ? {
 				collapseWhitespace: true,
 				removeComments: true,
@@ -64,11 +64,11 @@ module.exports = {
 		// patterns에 설정한 경로에 해당 파일이 없으면 에러가 발생합니다.
 		// 사용하는 파일이나 폴더 이름이 다르다면 변경해주세요.
 		// 그대로 사용할 파일들이 없다면 CopyWebpackPlugin을 통째로 주석 처리 해주세요.
-		new CopyWebpackPlugin({
-			patterns: [
-				{ from: "./src/main.css", to: "./main.css" },
-				{ from: "./src/images", to: "./images" },
-			],
-		})
+		//new CopyWebpackPlugin({
+		//	patterns: [
+		//		{ from: "./src2/main.css", to: "./main.css" },
+		//		{ from: "./src2/images", to: "./images" },
+		//	],
+		//})
 	]
 };

@@ -10435,7 +10435,7 @@
 					groundColor: {}
 				}
 			},
-			// TODO (abelnation): RectAreaLight BRDF data needs to be moved from example to main src
+			// TODO (abelnation): RectAreaLight BRDF data needs to be moved from example to main src2
 			rectAreaLights: {
 				value: [],
 				properties: {
