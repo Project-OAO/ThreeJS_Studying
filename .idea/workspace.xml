@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="852dd267-7919-4216-afa0-60e3a2599c18" name="Changes" comment="Set up the basic stuff">
-      <change afterPath="$PROJECT_DIR$/01.TrainingAids/start/02_module/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.TrainingAids/start/02_module/index2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.TrainingAids/start/02_module/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.TrainingAids/start/module_basic/hello.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01.TrainingAids/start/module_basic/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/01.TrainingAids/start/module_basic/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01.TrainingAids/start/module_basic/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/01.TrainingAids/start/module_basic/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.Chapter0/test/webpack-js-html-main/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/01.Chapter0/test/webpack-js-html-main/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1657676914865</updated>
       <workItem from="1657676916077" duration="1855000" />
-      <workItem from="1657679137060" duration="2029000" />
+      <workItem from="1657679137060" duration="4243000" />
     </task>
     <servers />
   </component>
